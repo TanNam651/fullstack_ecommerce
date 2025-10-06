@@ -1,0 +1,70 @@
+{
+  "compilerOptions": {
+    "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.app.tsbuildinfo",
+    "target": "ES2020",
+    "useDefineForClassFields": true,
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "module": "ESNext",
+    "skipLibCheck": true,
+
+    /* Bundler mode */
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "isolatedModules": true,
+    "moduleDetection": "force",
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "resolveJsonModule": true,
+    "allowJs": true,
+    "baseUrl": ".",
+    "noImplicitAny": true,
+    "allowSyntheticDefaultImports": true,
+    "outDir": "./build/",
+
+    /* Linting */
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUncheckedSideEffectImports": true,
+    "types": ["swiper"],
+
+    /* Paths*/
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ]
+//      "pages/*": [
+//        "pages/*"
+//      ],
+//      "assets/*": [
+//        "assets/*"
+//      ],
+//      "components/*":[
+//        "components/*"
+//      ],
+//      "context/*": [
+//        "context/*"
+//      ],
+//      "hooks/*": [
+//        "hooks/*"
+//      ],
+//      "helpers/*":[
+//        "helpers/*"
+//      ],
+//      "layouts/*": [
+//        "layouts/*"
+//      ],
+//      "reducers/*": [
+//        "reducers/*"
+//      ],
+//      "routes/*": [
+//        "routes/*"
+//      ],
+//      "services/*": [
+//        "services/*"
+//      ]
+    }
+  },
+  "include": ["src"]
+}
